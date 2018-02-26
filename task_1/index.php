@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Администратор
- * Date: 26.02.2018
- * Time: 17:47
- */
+$name = "Андрей";
+$age = 46;
+echo "Меня зовут: " . $name;
+echo "<br>";
+echo "Мне " . $age . " лет";
+echo "<br>";
+echo "\"!|\\/`\"\\";
