@@ -1,7 +1,6 @@
 <?php
 $day = 10;
-switch ($day)
-{
+switch ($day) {
     case 1:
     case 2:
     case 3:

@@ -7,14 +7,12 @@ $cars = [["name" => "bmw​с", "value" => $bmw​с],
     ["name" => "toyota", "value" => $toyota],
     ["name" => "opel", "value" => $opel]];
 
-foreach ($cars as $value)
-{
-    echo "CAR ".$value["name"];
+foreach ($cars as $value) {
+    echo "CAR " . $value["name"];
     echo "<br>";
 
-    foreach ($value["value"] as $item)
-    {
-        echo  $item." ";
+    foreach ($value["value"] as $item) {
+        echo $item . " ";
     }
     echo "<br>";
     echo "<br>";

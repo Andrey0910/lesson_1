@@ -9,8 +9,7 @@ echo "<br>";
 
 $length = count($arr) - 1;
 $str_reverse = "";
-while ($length >= 0)
-{
+while ($length >= 0) {
     $str_reverse .= $arr[$length];
     $str_reverse .= ($length != 0) ? "|" : "";
     $length--;
