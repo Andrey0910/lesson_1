@@ -1,16 +1,16 @@
 <?php
-$count_drawings = 80; //На школьной выставке 80 рисунков.
-$count_drawn_felt_pen = 23; //Нарисовано фломастерами
-$count_drawn_pen = 40; //Нарисовано карандашами
-$count_drawn_paints = null; //Нарисовано красками
+$countDrawings = 80; //На школьной выставке 80 рисунков.
+$countDrawnFeltPen = 23; //Нарисовано фломастерами
+$countDrawnPen = 40; //Нарисовано карандашами
+$countDrawnPaints = null; //Нарисовано красками
 
-echo "Дана задача: На школьной выставке " . $count_drawings . " рисунков. " . $count_drawn_felt_pen . " из них выполнены
-фломастерами, " . $count_drawn_pen . " карандашами, а остальные — красками.";
+echo "Дана задача: На школьной выставке " . $countDrawings . " рисунков. " . $countDrawnFeltPen . " из них выполнены
+фломастерами, " . $countDrawnPen . " карандашами, а остальные — красками.";
 echo "<br>";
 echo "Найти: Сколько рисунков,
 выполненные красками, на школьной выставке?";
 echo "<br>";
 
-$count_drawn_paints = $count_drawings - $count_drawn_felt_pen - $count_drawn_pen;
+$countDrawnPaints = $countDrawings - $countDrawnFeltPen - $countDrawnPen;
 
-echo "Ответ: Краскими нарисовано - " . $count_drawn_paints . " рисунков.";
+echo "Ответ: Краскими нарисовано - " . $countDrawnPaints . " рисунков.";
