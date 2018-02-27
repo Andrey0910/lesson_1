@@ -14,4 +14,4 @@ while ($length >= 0) {
     $strReverse .= ($length != 0) ? "|" : "";
     $length--;
 }
-echo $str_reverse;
+echo $strReverse;
